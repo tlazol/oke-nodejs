@@ -23,5 +23,5 @@ spec:
         imagePullPolicy: IfNotPresent
         resources: {}
         ports:
-            - containerPort: 3000
+            - containerPort: 8080
 status: {}

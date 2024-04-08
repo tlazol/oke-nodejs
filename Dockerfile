@@ -15,5 +15,5 @@ RUN npm install
 COPY . .
 
 # 開放するport番号を記載
-EXPOSE 3000
+EXPOSE 8080
 CMD [ "npm", "start" ]
